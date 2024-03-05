@@ -15,6 +15,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EurekaMain7001 {
     public static void main(String[] args) {
         System.out.println("测试Git版本切换等操作进行的第二次提交");
+        System.out.println("Hot-fox添加的一些信息进行版本的测试");
         SpringApplication.run(EurekaMain7001.class,args);
     }
 }
